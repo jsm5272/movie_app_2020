@@ -1,0 +1,25 @@
+@charset "utf-8";
+.nav {
+    position: fixed;
+    top: 35px;
+    left: 10%;
+    display: flex;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+      0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+    border-radius: 5px;
+  }
+  
+  .nav a {
+    color: #0008fc;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .nav a:not(:last-child) {
+    margin-right: 20px;
+  }
